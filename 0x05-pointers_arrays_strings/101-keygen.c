@@ -9,24 +9,23 @@
  */
 int main(void)
 {
-	char str[100];
-	int i = 0, randNum = 0, suma = 0;
+char str[100];
+int i = 0, randNum = 0, suma = 0;
 
-	srand (time(NULL));
+srand(time(NULL));
 
+for (i = 0; suma <= 2644; i++)
+{
+randNum = (rand() % 25) + 65;
 
-	for (i = 0; suma <= 2644; i++)
-	{
-		randNum = (rand() % 25) + 65;
+str[i] = randNum;
+suma = suma + randNum;
+}
 
-		str[i] = randNum;
-		suma = suma + randNum;
-	}
+str[i++] = 2772 - suma;
+str[i++] = '\0';
 
-	str[i++] = 2772 - suma;
-	str[i++] = '\0';
+printf("%s\n", str);
 
-	printf("%s\n", str);
-
-	return (0);
+return (0);
 }
