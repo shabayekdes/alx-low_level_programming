@@ -37,5 +37,5 @@ exit:
 	if (close(fd) == -1)
 		ret = -1;
 
-	return ret;
+	return (ret);
 }
