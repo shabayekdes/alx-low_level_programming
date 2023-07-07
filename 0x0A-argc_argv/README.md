@@ -5,3 +5,4 @@
 - Task 2. The best argument against democracy is a five-minute conversation with the average voter
 - Task 3. Neither irony nor sarcasm is argument
 - Task 4. To infinity and beyond
+- Task 5. Minimal Number of Coins for Change
