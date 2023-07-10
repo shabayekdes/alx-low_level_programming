@@ -1,3 +1,18 @@
 # 0x0B. C - malloc, free
 
 - Task 0. Float like a butterfly, sting like a bee
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c ../0-create_array.c -o a
+./a
+```
+
+- Task 1. The woman who has no imagination has no wings
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
+./s
+```
+
