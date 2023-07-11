@@ -12,7 +12,14 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c ../0-create_array.c -o a
 
 ```bash
 cd tests
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c ../1-strdup.c -o s
 ./s
 ```
 
+- Task 2. He who is not courageous enough to take risks will accomplish nothing in life
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c ../2-str_concat.c -o c
+./c
+```
