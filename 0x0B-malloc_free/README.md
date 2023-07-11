@@ -40,4 +40,10 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../4-free_grid.c ../3-al
 valgrind ./f
 ```
 
+- Task 5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
 
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c ../100-argstostr.c -o args
+./args I will "show you" how great I am
+```
