@@ -31,3 +31,13 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c ../3-alloc_grid.c -o g
 ./g
 ```
+
+- Task 4. It's not bragging if you can back it up
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../4-free_grid.c ../3-alloc_grid.c -o f
+valgrind ./f
+```
+
+
