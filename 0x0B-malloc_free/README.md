@@ -23,3 +23,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c ../2-str_concat.c -o c
 ./c
 ```
+
+- Task 3. If you even dream of beating me you'd better wake up and apologize
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c ../3-alloc_grid.c -o g
+./g
+```
