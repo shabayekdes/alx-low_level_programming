@@ -47,3 +47,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c ../100-argstostr.c -o args
 ./args I will "show you" how great I am
 ```
+
+- Task 6. I will show you how great I am
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c ../101-strtow.c -o strtow
+./strtow | cat -e
+```
