@@ -39,3 +39,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../100-realloc.c -o 100-realloc
 ./100-realloc
 ```
+
+- Task 5. We must accept finite disappointment, but never lose infinite hope
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 ../101-mul.c ../_putchar.c -o 101-mul
+./101-mul 10 98
+```
