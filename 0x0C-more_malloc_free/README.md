@@ -32,3 +32,10 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c ../3-array_range.c -o 3-
 ./3-array_range.c
 ```
 
+- Task 4._realloc
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../100-realloc.c -o 100-realloc
+./100-realloc
+```
