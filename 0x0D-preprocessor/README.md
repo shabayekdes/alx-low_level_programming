@@ -31,3 +31,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
 ./d
 ```
+
+- Task 4. SUM
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c -o e
+./e
+```
