@@ -23,3 +23,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 ../2-main.c -o c
 ./c
 ```
+
+- Task 3. Function-like macro
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+./d
+```
