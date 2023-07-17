@@ -15,3 +15,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c -o b
 ./b
 ```
+
+- Task 2. File name
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 ../2-main.c -o c
+./c
+```
