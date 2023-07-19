@@ -1,4 +1,4 @@
 # 0x0F. C - Function pointers
 
 - Task 0. What's my name
-
+- Task 1. If you spend too much time thinking about a thing, you'll never get it done
