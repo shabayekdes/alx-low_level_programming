@@ -39,3 +39,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../4-free_list.c ../3-add_node_end.c ../0-print_list.c -o e
 valgrind ./e
 ```
+
+- Task 5. The Hare and the Tortoise
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c ../100-first.c -o f
+./f
+```
