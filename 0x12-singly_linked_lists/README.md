@@ -31,3 +31,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c ../3-add_node_end.c ../0-print_list.c -o d
 ./d
 ```
+
+- Task 4. Free list
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../4-free_list.c ../3-add_node_end.c ../0-print_list.c -o e
+valgrind ./e
+```
