@@ -100,6 +100,6 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c ../100-reverse_listint
 
 ```bash
 cd tests
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c ../101-print_listint_safe.c ../0-print_listint.c ../1-listint_len.c ../3-add_nodeint_end.c ../5-free_listint2.c -o m
+ cc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c ../2-add_nodeint.c ../101-print_listint_safe.c -o m
 ./m
 ```
