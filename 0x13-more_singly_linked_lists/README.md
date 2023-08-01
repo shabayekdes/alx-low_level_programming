@@ -63,3 +63,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c ../7-get_nodeint.c ../3-add_nodeint_end.c ../0-print_listint.c -o h
 ./h
 ```
+
+- Task 8. Sum list
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c ../8-sum_listint.c ../3-add_nodeint_end.c ../0-print_listint.c -o i
+./i
+```
