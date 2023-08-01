@@ -87,3 +87,19 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 10-main.c ../10-delete_nodeint.c ../0-print_listint.c ../1-listint_len.c ../3-add_nodeint_end.c ../5-free_listint2.c -o k
 ./k
 ```
+
+- Task 11. Reverse list
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c ../100-reverse_listint.c ../0-print_listint.c ../1-listint_len.c ../3-add_nodeint_end.c ../5-free_listint2.c -o l
+./l
+```
+
+- Task 12. Print (safe version)
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c ../101-print_listint_safe.c ../0-print_listint.c ../1-listint_len.c ../3-add_nodeint_end.c ../5-free_listint2.c -o m
+./m
+```
