@@ -47,3 +47,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c ../5-free_listint2.c ../3-add_nodeint_end.c ../0-print_listint.c -o f
 valgrind ./f
 ```
+
+- Task 6. Pop
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c ../6-pop_listint.c ../3-add_nodeint_end.c ../0-print_listint.c -o g
+valgrind ./g
+```
