@@ -79,3 +79,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c ../9-insert_nodeint.c ../0-print_listint.c ../1-listint_len.c ../3-add_nodeint_end.c ../5-free_listint2.c -o j
 ./j
 ```
+
+- Task 10. Delete at index
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 10-main.c ../10-delete_nodeint.c ../0-print_listint.c ../1-listint_len.c ../3-add_nodeint_end.c ../5-free_listint2.c -o k
+./k
+```
