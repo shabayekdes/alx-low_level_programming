@@ -103,3 +103,11 @@ cd tests
  cc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c ../2-add_nodeint.c ../101-print_listint_safe.c -o m
 ./m
 ```
+
+- Task 13. Free (safe version)
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 102-main.c ../2-add_nodeint.c ../101-print_listint_safe.c ../102-free_listint_safe.c -o n
+./n
+```
