@@ -55,3 +55,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c ../6-pop_listint.c ../3-add_nodeint_end.c ../0-print_listint.c -o g
 valgrind ./g
 ```
+
+- Task 7. Get node at index
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c ../7-get_nodeint.c ../3-add_nodeint_end.c ../0-print_listint.c -o h
+./h
+```
