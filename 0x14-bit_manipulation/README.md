@@ -23,3 +23,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c ../2-get_bit.c -o c
 ./c
 ```
+
+- Task 3. 11
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c ../3-set_bit.c -o d
+./d
+```
