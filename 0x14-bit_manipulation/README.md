@@ -39,3 +39,11 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c ../4-clear_bit.c -o e
 ./e
 ```
+
+- Task 5. 101
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c ../5-flip_bits.c -o f
+./f
+```
