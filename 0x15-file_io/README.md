@@ -23,3 +23,9 @@ cd tests
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c ../2-append_text_to_file.c -o c
 ./c hello " World!
 ```
+
+- Task 3. cp
+
+```bash
+cd tests
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 ../3-cp.c -o cp
